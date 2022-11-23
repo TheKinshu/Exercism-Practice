@@ -5,7 +5,7 @@
 ; Happy coding! ♥️
 
 ; Jacking in...
-; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 63396
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 53541
 ; Hooking up nREPL sessions...
 ; Connected session: clj
 ; TIPS:
@@ -25,109 +25,139 @@ clj꞉user꞉>  ; Use `alt+enter` to evaluate
 ;    (There is a button in the status bar for this)
 ; Jack-in done.
 cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
-#'user/last-week
+#'user/reformat
 
 clj꞉user꞉> 
-#'user/odd-week?
+#'log-levels/reformat
 
-clj꞉user꞉> 
-(2 3 8)
+clj꞉log-levels꞉> 
+#'log-levels/log-level
 
-clj꞉user꞉> 
-#'user/odd-week?
+clj꞉log-levels꞉> 
+#'log-levels/message
 
-clj꞉user꞉> 
-(2 5 3 7 8 4)
+clj꞉log-levels꞉> 
+"[ERROR]: Stack overflow"
 
-clj꞉user꞉> 
-#'user/odd-week?
+clj꞉log-levels꞉> 
+"[ERROR]: Stack overflow"
 
-clj꞉user꞉> 
-(2 3 8)
+clj꞉log-levels꞉> 
+#'log-levels/message
 
-clj꞉user꞉> 
-#'user/odd-week?
+clj꞉log-levels꞉> 
+"[ERROR]: Stack overflow"
 
-clj꞉user꞉> 
-(2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 ...)
+clj꞉log-levels꞉> 
+#'log-levels/message
 
-clj꞉user꞉> 
-7
+clj꞉log-levels꞉> 
+["[ERROR]:" "Stack" "overflow"]
 
-clj꞉user꞉> 
-(0 2 4 6)
+clj꞉log-levels꞉> 
+#'log-levels/reformat
 
-clj꞉user꞉> 
-; Could not resolve symbol: .indexOf
-clj꞉user꞉> 
-; Could not resolve symbol: .indexOf
-clj꞉user꞉> 
-true
+clj꞉log-levels꞉> 
+"error"
 
-clj꞉user꞉> 
-#'user/last-week
+clj꞉log-levels꞉> 
+"(\"ERROR\" \"Segmentation fault\")(error)"
 
-clj꞉user꞉> 
-; Could not resolve symbol: birds
-clj꞉user꞉> 
-false
+clj꞉log-levels꞉> 
+"(\"Segmentation fault\")(error)"
 
-clj꞉user꞉> 
--1
+clj꞉log-levels꞉> 
+("ERROR" "Segmentation fault")
 
-clj꞉user꞉> 
-; Key must be integer
-clj꞉user꞉> 
-; Key must be integer
-clj꞉user꞉> 
-1
+clj꞉log-levels꞉> 
+; EOF while reading, expected ) to match ( at [22,3]
+clj꞉log-levels꞉> 
+"(\"Segmentation fault\")"
 
-clj꞉user꞉> 
-(0 2 4 6)
+clj꞉log-levels꞉> 
+; Invalid regular expression: /[([A-Z]+)]:\s*([\w ]+)\s*/: Unmatched ')'
+clj꞉log-levels꞉> 
+#'log-levels/reformat
 
-clj꞉user꞉> 
-(1 1 1 1)
+clj꞉log-levels꞉> 
+"error"
 
-clj꞉user꞉> 
-(1 1 1 1)
+clj꞉log-levels꞉> 
+"("
 
-clj꞉user꞉> 
-false
+clj꞉log-levels꞉> 
+"(error)"
 
-clj꞉user꞉> 
-false
+clj꞉log-levels꞉> 
+; Could not resolve symbol: s
+clj꞉log-levels꞉> 
+("ERROR" "Segmentation fault")
 
-clj꞉user꞉> 
-#'user/odd-week?
+clj꞉log-levels꞉> 
+("Segmentation fault")
 
-clj꞉user꞉> 
-#object[tq bird-watcher]
+clj꞉log-levels꞉> 
+"(\"Segmentation fault\")"
 
-clj꞉bird-watcher꞉> 
-#'bird-watcher/last-week
+clj꞉log-levels꞉> 
+" (error)"
 
-clj꞉bird-watcher꞉> 
-#'bird-watcher/today
+clj꞉log-levels꞉> 
+#object[Function]
 
-clj꞉bird-watcher꞉> 
-4
+clj꞉log-levels꞉> 
+" (error)"
 
-clj꞉bird-watcher꞉> 
-7
+clj꞉log-levels꞉> 
+("ERROR" "Segmentation fault")
 
-clj꞉bird-watcher꞉> 
-false
+clj꞉log-levels꞉> 
+("Segmentation fault")
 
-clj꞉bird-watcher꞉> 
-#'bird-watcher/last-week2
+clj꞉log-levels꞉> 
+("Segmentation fault")
 
-clj꞉bird-watcher꞉> 
-false
+clj꞉log-levels꞉> 
+; Could not resolve symbol: deck
+clj꞉log-levels꞉> 
+; EOF while reading, expected ) to match ( at [15,1]
+clj꞉log-levels꞉> 
+#'log-levels/swap-top-two-cards
 
-clj꞉bird-watcher꞉> 
-false
+clj꞉log-levels꞉> 
+""
 
-clj꞉bird-watcher꞉> 
-true
+clj꞉log-levels꞉> 
+"6"
 
-clj꞉bird-watcher꞉> 
+clj꞉elyses-destructured-enchantments꞉> 
+"4"
+
+clj꞉elyses-destructured-enchantments꞉> 
+"(3 7 8)"
+
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/swap-top-two-cards
+
+clj꞉elyses-destructured-enchantments꞉> 
+(10 3 7 8)
+
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/swap-top-two-cards
+
+clj꞉elyses-destructured-enchantments꞉> 
+(4 10 3 7 8)
+
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/swap-top-two-cards
+
+clj꞉elyses-destructured-enchantments꞉> 
+[4 10 3 7 8]
+
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/second-card
+
+clj꞉elyses-destructured-enchantments꞉> 
+10
+
+clj꞉elyses-destructured-enchantments꞉> 

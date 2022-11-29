@@ -21,13 +21,18 @@
 (defn discard-top-card
   "Returns a sequence containing the first card and
    a sequence of the remaining cards in the deck."
-  [deck])
+  [deck]
+  (let [top-card (first deck)
+        rest-deck (rest deck)]
+    [top-card
+     (if (empty? rest-deck) nil (vec rest-deck))]))
 
 (def face-cards
   ["jack" "queen" "king"])
 
 (defn insert-face-cards
   "Returns the deck with face cards between its head and tail."
-  [deck])
-
-(swap-top-two-cards [10 4 3 7 8])
+  [deck]
+  (let [top-card (if (empty? deck) face-cards (into [(first deck)] face-cards))
+        rest-deck (vec (rest deck))]
+    (into top-card rest-deck)))

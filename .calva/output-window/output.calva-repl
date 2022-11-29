@@ -5,7 +5,7 @@
 ; Happy coding! ♥️
 
 ; Jacking in...
-; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 53541
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 63941
 ; Hooking up nREPL sessions...
 ; Connected session: clj
 ; TIPS:
@@ -25,139 +25,196 @@ clj꞉user꞉>  ; Use `alt+enter` to evaluate
 ;    (There is a button in the status bar for this)
 ; Jack-in done.
 cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
-#'user/reformat
-
-clj꞉user꞉> 
-#'log-levels/reformat
-
-clj꞉log-levels꞉> 
-#'log-levels/log-level
-
-clj꞉log-levels꞉> 
-#'log-levels/message
-
-clj꞉log-levels꞉> 
-"[ERROR]: Stack overflow"
-
-clj꞉log-levels꞉> 
-"[ERROR]: Stack overflow"
-
-clj꞉log-levels꞉> 
-#'log-levels/message
-
-clj꞉log-levels꞉> 
-"[ERROR]: Stack overflow"
-
-clj꞉log-levels꞉> 
-#'log-levels/message
-
-clj꞉log-levels꞉> 
-["[ERROR]:" "Stack" "overflow"]
-
-clj꞉log-levels꞉> 
-#'log-levels/reformat
-
-clj꞉log-levels꞉> 
-"error"
-
-clj꞉log-levels꞉> 
-"(\"ERROR\" \"Segmentation fault\")(error)"
-
-clj꞉log-levels꞉> 
-"(\"Segmentation fault\")(error)"
-
-clj꞉log-levels꞉> 
-("ERROR" "Segmentation fault")
-
-clj꞉log-levels꞉> 
-; EOF while reading, expected ) to match ( at [22,3]
-clj꞉log-levels꞉> 
-"(\"Segmentation fault\")"
-
-clj꞉log-levels꞉> 
-; Invalid regular expression: /[([A-Z]+)]:\s*([\w ]+)\s*/: Unmatched ')'
-clj꞉log-levels꞉> 
-#'log-levels/reformat
-
-clj꞉log-levels꞉> 
-"error"
-
-clj꞉log-levels꞉> 
-"("
-
-clj꞉log-levels꞉> 
-"(error)"
-
-clj꞉log-levels꞉> 
-; Could not resolve symbol: s
-clj꞉log-levels꞉> 
-("ERROR" "Segmentation fault")
-
-clj꞉log-levels꞉> 
-("Segmentation fault")
-
-clj꞉log-levels꞉> 
-"(\"Segmentation fault\")"
-
-clj꞉log-levels꞉> 
-" (error)"
-
-clj꞉log-levels꞉> 
-#object[Function]
-
-clj꞉log-levels꞉> 
-" (error)"
-
-clj꞉log-levels꞉> 
-("ERROR" "Segmentation fault")
-
-clj꞉log-levels꞉> 
-("Segmentation fault")
-
-clj꞉log-levels꞉> 
-("Segmentation fault")
-
-clj꞉log-levels꞉> 
-; Could not resolve symbol: deck
-clj꞉log-levels꞉> 
-; EOF while reading, expected ) to match ( at [15,1]
-clj꞉log-levels꞉> 
-#'log-levels/swap-top-two-cards
-
-clj꞉log-levels꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+(nil)
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+7
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+[7 (nil)]
+clj꞉elyses-destructured-enchantments꞉> 
+[7 ()]
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+[7 () nil]
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+[7 nil]
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/discard-top-card
+clj꞉elyses-destructured-enchantments꞉> 
+; Could not resolve symbol: face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+[3 ["jack" "queen" "king"] (10 7)]
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/discard-top-card
+clj꞉elyses-destructured-enchantments꞉> 
+[3 (10 7)]
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/discard-top-card
+clj꞉elyses-destructured-enchantments꞉> 
+[3 #{10 7}]
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/discard-top-card
+clj꞉elyses-destructured-enchantments꞉> 
+[3 ((10 7))]
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/discard-top-card
+clj꞉elyses-destructured-enchantments꞉> 
+[3 [10 7]]
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+[3 ["jack" "queen" "king"] (10 7)]
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+; No protocol method ICollection.-conj defined for type number: 3
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+; No protocol method ICollection.-conj defined for type number: 3
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+; No protocol method ICollection.-conj defined for type number: 3
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+[3 ["jack" "queen" "king"] (10 7)]
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+(["jack" "queen" "king"] 3 10 7)
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+(3 ["jack" "queen" "king"] 10 7)
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+(3 "jackqueenking" 10 7)
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+(3 10 7)
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+[10 7 3]
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+; No protocol method ICollection.-conj defined for type number: 3
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+[10 7 3 ["jack" "queen" "king"]]
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+; No protocol method ICollection.-conj defined for type number: 3
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+; No protocol method ICollection.-conj defined for type number: 3
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+["jack" "queen" "king" 3]
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+[3 ["jack" "queen" "king"]]
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+; Key must be integer
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+; a.call is not a function
+clj꞉elyses-destructured-enchantments꞉> 
+; a.call is not a function
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+; No protocol method ICollection.-conj defined for type number: 3
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+[3 "jack" "queen" "king"]
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+[3 "jack" "queen" "king" 10 7]
+clj꞉elyses-destructured-enchantments꞉> 
+[nil "jack" "queen" "king"]
+clj꞉elyses-destructured-enchantments꞉> 
+[nil "jack" "queen" "king"]
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
+[nil "jack" "queen" "king"]
+clj꞉elyses-destructured-enchantments꞉> 
+#'elyses-destructured-enchantments/insert-face-cards
+clj꞉elyses-destructured-enchantments꞉> 
 ""
-
-clj꞉log-levels꞉> 
-"6"
-
 clj꞉elyses-destructured-enchantments꞉> 
-"4"
-
+#'elyses-destructured-enchantments/insert-face-cards
 clj꞉elyses-destructured-enchantments꞉> 
-"(3 7 8)"
-
+[]
 clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/swap-top-two-cards
-
+#'elyses-destructured-enchantments/insert-face-cards
 clj꞉elyses-destructured-enchantments꞉> 
-(10 3 7 8)
-
+["jack" "queen" "king"]
 clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/swap-top-two-cards
-
-clj꞉elyses-destructured-enchantments꞉> 
-(4 10 3 7 8)
-
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/swap-top-two-cards
-
-clj꞉elyses-destructured-enchantments꞉> 
-[4 10 3 7 8]
-
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/second-card
-
-clj꞉elyses-destructured-enchantments꞉> 
-10
-
-clj꞉elyses-destructured-enchantments꞉> 
+#'two-fer/two-fer
+clj꞉two-fer꞉> 
+"Kelvbin"
+clj꞉two-fer꞉> 
+#'two-fer/two-fer
+clj꞉two-fer꞉> 
+"One forKelvbinone for me."
+clj꞉two-fer꞉> 
+"One for Kelvbin one for me."
+clj꞉two-fer꞉> 
+"One for  one for me."
+clj꞉two-fer꞉> 
+; Could not resolve symbol: blank?
+clj꞉two-fer꞉> 
+; Could not resolve symbol: str/blank?
+clj꞉two-fer꞉> 
+"One for  one for me."
+clj꞉two-fer꞉> 
+"One for  one for me."
+clj꞉two-fer꞉> 
+"One for  one for me."
+clj꞉two-fer꞉> 
+0
+clj꞉two-fer꞉> 
+0
+clj꞉two-fer꞉> 
+"One for you one for me."
+clj꞉two-fer꞉> 
+"One for you one for me."
+clj꞉two-fer꞉> 
+#'two-fer/two-fer
+clj꞉two-fer꞉> 
+"One for you one for me."
+clj꞉two-fer꞉> 
+"One for sa one for me."
+clj꞉two-fer꞉> 
+"One for sa, one for me."
+clj꞉two-fer꞉> 
+; nREPL Connection was closed

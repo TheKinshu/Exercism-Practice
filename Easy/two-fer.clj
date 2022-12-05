@@ -4,9 +4,3 @@
   ;; your code goes here
   (let [person (if (= (count name) 0) "you" name)]
     (str "One for " person ", one for me.")))
-
-
-
-(two-fer "sa")
-
-

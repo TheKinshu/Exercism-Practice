@@ -5,7 +5,7 @@
 ; Happy coding! ♥️
 
 ; Jacking in...
-; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 63941
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 55218
 ; Hooking up nREPL sessions...
 ; Connected session: clj
 ; TIPS:
@@ -25,196 +25,537 @@ clj꞉user꞉>  ; Use `alt+enter` to evaluate
 ;    (There is a button in the status bar for this)
 ; Jack-in done.
 cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-(nil)
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-7
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-[7 (nil)]
-clj꞉elyses-destructured-enchantments꞉> 
-[7 ()]
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-[7 () nil]
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-[7 nil]
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/discard-top-card
-clj꞉elyses-destructured-enchantments꞉> 
-; Could not resolve symbol: face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-[3 ["jack" "queen" "king"] (10 7)]
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/discard-top-card
-clj꞉elyses-destructured-enchantments꞉> 
-[3 (10 7)]
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/discard-top-card
-clj꞉elyses-destructured-enchantments꞉> 
-[3 #{10 7}]
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/discard-top-card
-clj꞉elyses-destructured-enchantments꞉> 
-[3 ((10 7))]
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/discard-top-card
-clj꞉elyses-destructured-enchantments꞉> 
-[3 [10 7]]
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-[3 ["jack" "queen" "king"] (10 7)]
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-; No protocol method ICollection.-conj defined for type number: 3
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-; No protocol method ICollection.-conj defined for type number: 3
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-; No protocol method ICollection.-conj defined for type number: 3
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-[3 ["jack" "queen" "king"] (10 7)]
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-(["jack" "queen" "king"] 3 10 7)
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-(3 ["jack" "queen" "king"] 10 7)
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-(3 "jackqueenking" 10 7)
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-(3 10 7)
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-[10 7 3]
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-; No protocol method ICollection.-conj defined for type number: 3
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-[10 7 3 ["jack" "queen" "king"]]
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-; No protocol method ICollection.-conj defined for type number: 3
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-; No protocol method ICollection.-conj defined for type number: 3
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-["jack" "queen" "king" 3]
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-[3 ["jack" "queen" "king"]]
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-; Key must be integer
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-; a.call is not a function
-clj꞉elyses-destructured-enchantments꞉> 
-; a.call is not a function
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-; No protocol method ICollection.-conj defined for type number: 3
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-[3 "jack" "queen" "king"]
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-[3 "jack" "queen" "king" 10 7]
-clj꞉elyses-destructured-enchantments꞉> 
-[nil "jack" "queen" "king"]
-clj꞉elyses-destructured-enchantments꞉> 
-[nil "jack" "queen" "king"]
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-[nil "jack" "queen" "king"]
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-""
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-[]
-clj꞉elyses-destructured-enchantments꞉> 
-#'elyses-destructured-enchantments/insert-face-cards
-clj꞉elyses-destructured-enchantments꞉> 
-["jack" "queen" "king"]
-clj꞉elyses-destructured-enchantments꞉> 
-#'two-fer/two-fer
-clj꞉two-fer꞉> 
-"Kelvbin"
-clj꞉two-fer꞉> 
-#'two-fer/two-fer
-clj꞉two-fer꞉> 
-"One forKelvbinone for me."
-clj꞉two-fer꞉> 
-"One for Kelvbin one for me."
-clj꞉two-fer꞉> 
-"One for  one for me."
-clj꞉two-fer꞉> 
-; Could not resolve symbol: blank?
-clj꞉two-fer꞉> 
-; Could not resolve symbol: str/blank?
-clj꞉two-fer꞉> 
-"One for  one for me."
-clj꞉two-fer꞉> 
-"One for  one for me."
-clj꞉two-fer꞉> 
-"One for  one for me."
-clj꞉two-fer꞉> 
+##NaN
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+("1" "0")
+clj꞉armstrong-numbers꞉> 
+("1" "0")
+clj꞉armstrong-numbers꞉> 
+(1 0)
+clj꞉armstrong-numbers꞉> 
+(1 0)
+clj꞉armstrong-numbers꞉> 
+; this.na.charAt is not a function
+clj꞉armstrong-numbers꞉> 
+(1 0)
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+(1 0)
+clj꞉armstrong-numbers꞉> 
+; function oB(a){switch(arguments.length){case 0:return oB.v();case 1:return oB.g(arguments[0]);case 2:return oB.h(arguments[0],arguments[1]);default:for(var c=[],d=arguments.length,e=0;;)if(e<d)c.push(arguments[e]),e+=1;else break;return oB.l(arguments[0],arguments[1],new $APP.Ld(c.slice(2),0,null))}} is not ISeqable
+clj꞉armstrong-numbers꞉> 
+(2 0)
+clj꞉armstrong-numbers꞉> 
+; 2 is not ISeqable
+clj꞉armstrong-numbers꞉> 
+(1 0)
+clj꞉armstrong-numbers꞉> 
+1
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong2?
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+2
+clj꞉armstrong-numbers꞉> 
+(2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 ...)
+clj꞉armstrong-numbers꞉> 
+; Could not resolve symbol: %
+clj꞉armstrong-numbers꞉> 
+("10" "10")
+clj꞉armstrong-numbers꞉> 
+(2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 ...)
+clj꞉armstrong-numbers꞉> 
+#object[Function]
+clj꞉armstrong-numbers꞉> 
+#object[Function]
+clj꞉armstrong-numbers꞉> 
+; function(b){return function(){function c(k,q){q=a.g?a.g(q):a.call(null,q);return b.h?b.h(k,q):b.call(null,k,q)}function d(k){return b.g?b.g(k):b.call(null,k)}function e(){return b.v?b.v():b.call(null)}var f=null,g=function(){function k(h,u,v){var z=null;if(2<arguments.length){z=0;for(var H=Array(arguments.length-2);z<H.length;)H[z]=arguments[z+2],++z;z=new $APP.Ld(H,0,null)}return q.call(this,h,u,z)}function q(h,u,v){u=$APP.Bg.j(a,u,v);return b.h?b.h(h,u):b.call(null,
+; h,u)}k.o=2;k.A=function(h){var u=$APP.x(h);h=$APP.y(h);var v=$APP.x(h);h=$APP.Rd(h);return q(u,v,h)};k.l=q;return k}();f=function(k,q,h){switch(arguments.length){case 0:return e.call(this);case 1:return d.call(this,k);case 2:return c.call(this,k,q);default:var u=null;if(2<arguments.length){u=0;for(var v=Array(arguments.length-2);u<v.length;)v[u]=arguments[u+2],++u;u=new $APP.Ld(v,0,null)}return g.l(k,q,u)}throw Error("Invalid arity: "+arguments.length);};f.o=2;f.A=g.A;f.v=e;f.g=d;f.h=c;f.l=g.l;return f}()} is not ISeqable
+clj꞉armstrong-numbers꞉> 
+1
+clj꞉armstrong-numbers꞉> 
+(1 0)
+clj꞉armstrong-numbers꞉> 
+1
+clj꞉armstrong-numbers꞉> 
+(1 0)
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+; No protocol method ICounted.-count defined for type number: 10
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+; No protocol method ICounted.-count defined for type number: 10
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+; No protocol method ICounted.-count defined for type number: 10
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+; fa.call is not a function
+clj꞉armstrong-numbers꞉> 
+; Could not resolve symbol: num
+clj꞉armstrong-numbers꞉> 
+; Could not resolve symbol: num
+clj꞉armstrong-numbers꞉> 
+; Could not resolve symbol: num
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+; 10 is not ISeqable
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+("10" "10")
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/numT
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/numT
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/numT
+clj꞉armstrong-numbers꞉> 
+; ea.call is not a function
+clj꞉armstrong-numbers꞉> 
+2
+nil
+clj꞉armstrong-numbers꞉> 
+("10" "10")
+clj꞉armstrong-numbers꞉> 
+#object[Function]
+clj꞉armstrong-numbers꞉> 
+##NaN
+clj꞉armstrong-numbers꞉> 
+##NaN
+clj꞉armstrong-numbers꞉> 
+#object[Function]
+clj꞉armstrong-numbers꞉> 
+[1]
+clj꞉armstrong-numbers꞉> 
+#object[Function]
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/check
+clj꞉armstrong-numbers꞉> 
+nil
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/check
+clj꞉armstrong-numbers꞉> 
+nil
+clj꞉armstrong-numbers꞉> 
+; function(b){return function(){function c(k,q){q=a.g?a.g(q):a.call(null,q);return b.h?b.h(k,q):b.call(null,k,q)}function d(k){return b.g?b.g(k):b.call(null,k)}function e(){return b.v?b.v():b.call(null)}var f=null,g=function(){function k(h,u,v){var z=null;if(2<arguments.length){z=0;for(var H=Array(arguments.length-2);z<H.length;)H[z]=arguments[z+2],++z;z=new $APP.Ld(H,0,null)}return q.call(this,h,u,z)}function q(h,u,v){u=$APP.Bg.j(a,u,v);return b.h?b.h(h,u):b.call(null,
+; h,u)}k.o=2;k.A=function(h){var u=$APP.x(h);h=$APP.y(h);var v=$APP.x(h);h=$APP.Rd(h);return q(u,v,h)};k.l=q;return k}();f=function(k,q,h){switch(arguments.length){case 0:return e.call(this);case 1:return d.call(this,k);case 2:return c.call(this,k,q);default:var u=null;if(2<arguments.length){u=0;for(var v=Array(arguments.length-2);u<v.length;)v[u]=arguments[u+2],++u;u=new $APP.Ld(v,0,null)}return g.l(k,q,u)}throw Error("Invalid arity: "+arguments.length);};f.o=2;f.A=g.A;f.v=e;f.g=d;f.h=c;f.l=g.l;return f}()} is not ISeqable
+clj꞉armstrong-numbers꞉> 
+; function(b){return function(){function c(k,q){q=a.g?a.g(q):a.call(null,q);return b.h?b.h(k,q):b.call(null,k,q)}function d(k){return b.g?b.g(k):b.call(null,k)}function e(){return b.v?b.v():b.call(null)}var f=null,g=function(){function k(h,u,v){var z=null;if(2<arguments.length){z=0;for(var H=Array(arguments.length-2);z<H.length;)H[z]=arguments[z+2],++z;z=new $APP.Ld(H,0,null)}return q.call(this,h,u,z)}function q(h,u,v){u=$APP.Bg.j(a,u,v);return b.h?b.h(h,u):b.call(null,
+; h,u)}k.o=2;k.A=function(h){var u=$APP.x(h);h=$APP.y(h);var v=$APP.x(h);h=$APP.Rd(h);return q(u,v,h)};k.l=q;return k}();f=function(k,q,h){switch(arguments.length){case 0:return e.call(this);case 1:return d.call(this,k);case 2:return c.call(this,k,q);default:var u=null;if(2<arguments.length){u=0;for(var v=Array(arguments.length-2);u<v.length;)v[u]=arguments[u+2],++u;u=new $APP.Ld(v,0,null)}return g.l(k,q,u)}throw Error("Invalid arity: "+arguments.length);};f.o=2;f.A=g.A;f.v=e;f.g=d;f.h=c;f.l=g.l;return f}()} is not ISeqable
+clj꞉armstrong-numbers꞉> 
+; function(b){return function(){function c(k,q){q=a.g?a.g(q):a.call(null,q);return b.h?b.h(k,q):b.call(null,k,q)}function d(k){return b.g?b.g(k):b.call(null,k)}function e(){return b.v?b.v():b.call(null)}var f=null,g=function(){function k(h,u,v){var z=null;if(2<arguments.length){z=0;for(var H=Array(arguments.length-2);z<H.length;)H[z]=arguments[z+2],++z;z=new $APP.Ld(H,0,null)}return q.call(this,h,u,z)}function q(h,u,v){u=$APP.Bg.j(a,u,v);return b.h?b.h(h,u):b.call(null,
+; h,u)}k.o=2;k.A=function(h){var u=$APP.x(h);h=$APP.y(h);var v=$APP.x(h);h=$APP.Rd(h);return q(u,v,h)};k.l=q;return k}();f=function(k,q,h){switch(arguments.length){case 0:return e.call(this);case 1:return d.call(this,k);case 2:return c.call(this,k,q);default:var u=null;if(2<arguments.length){u=0;for(var v=Array(arguments.length-2);u<v.length;)v[u]=arguments[u+2],++u;u=new $APP.Ld(v,0,null)}return g.l(k,q,u)}throw Error("Invalid arity: "+arguments.length);};f.o=2;f.A=g.A;f.v=e;f.g=d;f.h=c;f.l=g.l;return f}()} is not ISeqable
+clj꞉armstrong-numbers꞉> 
+#object[Function]
+clj꞉armstrong-numbers꞉> 
+#object[Function]
+clj꞉armstrong-numbers꞉> 
+("10" "10")
+clj꞉armstrong-numbers꞉> 
+[("10" "10")]
+clj꞉armstrong-numbers꞉> 
+("10" "10")
+clj꞉armstrong-numbers꞉> 
+"1010"
+clj꞉armstrong-numbers꞉> 
+##NaN
+clj꞉armstrong-numbers꞉> 
+##NaN
+clj꞉armstrong-numbers꞉> 
+##NaN
+clj꞉armstrong-numbers꞉> 
+##NaN
+clj꞉armstrong-numbers꞉> 
+#object[Function]
+clj꞉armstrong-numbers꞉> 
+##NaN
+clj꞉armstrong-numbers꞉> 
+##NaN
+clj꞉armstrong-numbers꞉> 
+(2 2)
+clj꞉armstrong-numbers꞉> 
+##NaN
+clj꞉armstrong-numbers꞉> 
+(2 2)
+clj꞉armstrong-numbers꞉> 
+##NaN
+clj꞉armstrong-numbers꞉> 
+#object[Function]
+clj꞉armstrong-numbers꞉> 
+; No protocol method ICounted.-count defined for type number: 1
+clj꞉armstrong-numbers꞉> 
+; ka.call is not a function
+clj꞉armstrong-numbers꞉> 
+1
+clj꞉armstrong-numbers꞉> 
+; Could not resolve symbol: num
+clj꞉armstrong-numbers꞉> 
+(2)
+clj꞉armstrong-numbers꞉> 
+(1 0)
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/x
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/y
+clj꞉armstrong-numbers꞉> 
+##NaN
+clj꞉armstrong-numbers꞉> 
+##NaN
+clj꞉armstrong-numbers꞉> 
+; ka.call is not a function
+clj꞉armstrong-numbers꞉> 
+##NaN
+clj꞉armstrong-numbers꞉> 
+; ea.call is not a function
+clj꞉armstrong-numbers꞉> 
+(2 2)
+nil
+clj꞉armstrong-numbers꞉> 
+; Unmatched delimiter: )
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/y
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/x
+clj꞉armstrong-numbers꞉> 
+(2 2)
+nil
+clj꞉armstrong-numbers꞉> 
+(2 2)
+nil
+clj꞉armstrong-numbers꞉> 
+(1 0)
+nil
+clj꞉armstrong-numbers꞉> 
+#{1 0}
+clj꞉armstrong-numbers꞉> 
+#{2}
+clj꞉armstrong-numbers꞉> 
+##NaN
+clj꞉armstrong-numbers꞉> 
+##NaN
+clj꞉armstrong-numbers꞉> 
+[2 2]
+clj꞉armstrong-numbers꞉> 
+##NaN
+clj꞉armstrong-numbers꞉> 
+(1 0)
+clj꞉armstrong-numbers꞉> 
+(2 0)
+clj꞉armstrong-numbers꞉> 
+(2 0)
+clj꞉armstrong-numbers꞉> 
+2
+clj꞉armstrong-numbers꞉> 
+; Could not resolve symbol: counter
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+10
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+2
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+(1 0)
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+; Could not find namespace: clojure.math/pow
+clj꞉armstrong-numbers꞉> 
+; Could not find namespace: clojure.Math/pow
+clj꞉armstrong-numbers꞉> 
+; Could not find namespace: clojure.Math/pow
+clj꞉armstrong-numbers꞉> 
+; Could not find namespace: clojure.Math.pow
+clj꞉armstrong-numbers꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 61207
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 61226
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Could not resolve symbol: math/expt
+clj꞉armstrong-numbers꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 61263
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Could not resolve symbol: clojure
+clj꞉user꞉> 
+; Could not resolve symbol: Clojure.Math/pow
+clj꞉user꞉> 
+; Could not resolve symbol: clojure.Math/pow
+clj꞉user꞉> 
+#'user/armstrong?
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+; Could not resolve symbol: armstrong?
+clj꞉armstrong-numbers꞉> 
+; Could not resolve symbol: armstrong?
+clj꞉armstrong-numbers꞉> 
+; Could not resolve symbol: armstrong?
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+; Cannot read property 'h' of undefined
+clj꞉armstrong-numbers꞉> 
+; Cannot read property 'h' of undefined
+clj꞉armstrong-numbers꞉> 
+; Cannot read property 'h' of undefined
+clj꞉armstrong-numbers꞉> 
+; Cannot read property 'h' of undefined
+clj꞉armstrong-numbers꞉> 
+; Cannot read property 'h' of undefined
+clj꞉armstrong-numbers꞉> 
+; Cannot read property 'h' of undefined
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+; Could not find static method expt
+clj꞉armstrong-numbers꞉> 
+; Could not find static method expt
+clj꞉armstrong-numbers꞉> 
+; Could not resolve symbol: clojure
+clj꞉armstrong-numbers꞉> 
+; Could not resolve symbol: clojure.Math/pow
+clj꞉armstrong-numbers꞉> 
+10000000000
+clj꞉armstrong-numbers꞉> 
+; Could not find static method expt
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+true
+clj꞉armstrong-numbers꞉> 
+false
+clj꞉armstrong-numbers꞉> 
+#'armstrong-numbers/armstrong?
+clj꞉armstrong-numbers꞉> 
+21913306307603684
+clj꞉armstrong-numbers꞉> 
+9864574
+clj꞉armstrong-numbers꞉> 
+9926315
+clj꞉armstrong-numbers꞉> 
+9843
+clj꞉armstrong-numbers꞉> 
+9474
+clj꞉armstrong-numbers꞉> 
+1
+clj꞉armstrong-numbers꞉> 
+153
+clj꞉armstrong-numbers꞉> 
+1
+clj꞉armstrong-numbers꞉> 
+5
+clj꞉armstrong-numbers꞉> 
+5
+clj꞉armstrong-numbers꞉> 
 0
-clj꞉two-fer꞉> 
-0
-clj꞉two-fer꞉> 
-"One for you one for me."
-clj꞉two-fer꞉> 
-"One for you one for me."
-clj꞉two-fer꞉> 
-#'two-fer/two-fer
-clj꞉two-fer꞉> 
-"One for you one for me."
-clj꞉two-fer꞉> 
-"One for sa one for me."
-clj꞉two-fer꞉> 
-"One for sa, one for me."
-clj꞉two-fer꞉> 
+clj꞉armstrong-numbers꞉> 
 ; nREPL Connection was closed

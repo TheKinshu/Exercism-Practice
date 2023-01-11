@@ -3,17 +3,15 @@
 (defn acronym
   "Converts phrase to its acronym."
   [phrase]
-  (let [upper-phrase (str/upper-case phrase)
-        phrase-list (str/split upper-phrase #"(\s+)")]
-    (apply str (map first phrase-list))))
-
-
-
-(defn acronym2
-  "Converts phrase to its acronym."
-  [phrase]
-  (let [phrase-list (str/split phrase #"\s+")]
-    (apply str (map first phrase-list))))
+  (->> (re-seq #"[A-Z]+[a-z]*|[a-z]+" phrase)
+       (map first)
+       (apply str)
+       (str/upper-case)))
 
 
 (acronym/acronym "Portable Network Graphics")
+(acronym/acronym "Ruby on Rails")
+(acronym/acronym "HyperText Markup Language")
+(acronym/acronym "First In, First Out")
+(acronym/acronym "PHP: Hypertext Preprocessor")
+(acronym/acronym "Complementary metal-oxide semiconductor")

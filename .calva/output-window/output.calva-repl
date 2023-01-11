@@ -5,7 +5,7 @@
 ; Happy coding! ♥️
 
 ; Jacking in...
-; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 61961
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 62217
 ; Hooking up nREPL sessions...
 ; Connected session: clj
 ; TIPS:
@@ -15,7 +15,7 @@
 ;   - `alt+up` and `alt+down` traverse up and down the REPL command history
 ;      when the cursor is after the last contents at the prompt
 ;   - Clojure lines in stack traces are peekable and clickable.
-clj꞉user꞉>  ; Use `alt+enter` to evaluate
+clj꞉ [object Object] ꞉>  ; Use `alt+enter` to evaluate
 ; Creating cljs repl session...
 ; Connecting cljs repl: nbb...
 ;   The Calva Connection Log might have more connection progress information.
@@ -25,479 +25,235 @@ clj꞉user꞉>  ; Use `alt+enter` to evaluate
 ;    (There is a button in the status bar for this)
 ; Jack-in done.
 cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
-; Could not resolve symbol: base-10
-clj꞉user꞉> 
-#'user/base-10
-clj꞉user꞉> 
-; Could not resolve symbol: base-10
-clj꞉all-your-base꞉> 
-#'all-your-base/base-10
-clj꞉all-your-base꞉> 
-(1 0 1 0 1 0)
+; Could not resolve symbol: string/uppercase?
+clj꞉ [object Object] ꞉> 
+; Could not resolve symbol: string/upper-case
+clj꞉ [object Object] ꞉> 
+#object[Hr bob]
+clj꞉ [object Object] ꞉> 
+true
+clj꞉ [object Object] ꞉> 
+false
+clj꞉ [object Object] ꞉> 
+true
+clj꞉ [object Object] ꞉> 
+; Could not resolve symbol: s
+clj꞉ [object Object] ꞉> 
+true
+clj꞉ [object Object] ꞉> 
+; Could not resolve symbol: Character/isUpperCase
+clj꞉ [object Object] ꞉> 
+"f f"
+clj꞉ [object Object] ꞉> 
+true
+clj꞉ [object Object] ꞉> 
+true
+clj꞉ [object Object] ꞉> 
+false
+clj꞉ [object Object] ꞉> 
+; Could not resolve symbol: bob/response-for
+clj꞉ [object Object] ꞉> 
+#object[Hr bob]
+clj꞉ [object Object] ꞉> 
+#'bob/response-for
+clj꞉ [object Object] ꞉> 
+false
+clj꞉ [object Object] ꞉> 
+#'bob/uppercase?
+clj꞉ [object Object] ꞉> 
+#'bob/uppercase?
+clj꞉ [object Object] ꞉> 
+; cond requires an even number of forms
+clj꞉ [object Object] ꞉> 
+; Could not resolve symbol: question?
+clj꞉ [object Object] ꞉> 
+; Could not resolve symbol: Character/isUpperCase
+clj꞉ [object Object] ꞉> 
+true
+clj꞉ [object Object] ꞉> 
+#'bob/response-for
+clj꞉ [object Object] ꞉> 
+true
+clj꞉ [object Object] ꞉> 
+false
+clj꞉ [object Object] ꞉> 
+true
+clj꞉ [object Object] ꞉> 
+false
+clj꞉ [object Object] ꞉> 
+false
+clj꞉ [object Object] ꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 62838
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉ [object Object] ꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: nbb...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
 nil
-clj꞉all-your-base꞉> 
-; Can only recur from tail position
-clj꞉all-your-base꞉> 
-#'all-your-base/base-10
-clj꞉all-your-base꞉> 
-(1 0 1 0 1 0)
-clj꞉all-your-base꞉> 
-(5)
-clj꞉all-your-base꞉> 
-(1 0 1 0 1 0)
-clj꞉all-your-base꞉> 
-#'all-your-base/base-10
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
-(1 0 1 0 1 0)
-clj꞉all-your-base꞉> 
-(1 1 2 0)
-clj꞉all-your-base꞉> 
-(1 0 1 0 1 0)
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
-(1 0 1 0 1 0)
-clj꞉all-your-base꞉> 
-#'all-your-base/base-2
-clj꞉all-your-base꞉> 
-[1 4 9 16 25]
-clj꞉all-your-base꞉> 
-[1 4 9 16 25]
-clj꞉all-your-base꞉> 
-[1 4 9 16 25]
-clj꞉all-your-base꞉> 
-#'all-your-base/base-2
-clj꞉all-your-base꞉> 
-[1 0 1]
-clj꞉all-your-base꞉> 
-#'all-your-base/base-2
-clj꞉all-your-base꞉> 
-#'all-your-base/base-2
-clj꞉all-your-base꞉> 
-; 1 is not ISeqable
-clj꞉all-your-base꞉> 
-#'all-your-base/base-2
-clj꞉all-your-base꞉> 
-[1 0 1]
-clj꞉all-your-base꞉> 
-#'all-your-base/base-2
-clj꞉all-your-base꞉> 
-[1 ##Inf 1]
-clj꞉all-your-base꞉> 
-[1 ##Inf 1]
-clj꞉all-your-base꞉> 
-; Could not resolve symbol: xs
-clj꞉all-your-base꞉> 
-#'all-your-base/base-2
-clj꞉all-your-base꞉> 
-[0.01 0 1]
-clj꞉all-your-base꞉> 
-#'all-your-base/base-2
-clj꞉all-your-base꞉> 
--2
--1
-0
-[0.01 0 1]
-clj꞉all-your-base꞉> 
-#'all-your-base/base-2
-clj꞉all-your-base꞉> 
-3
-2
-1
-[1000 0 10]
-clj꞉all-your-base꞉> 
-#'all-your-base/base-2
-clj꞉all-your-base꞉> 
-2
-1
-0
-[100 0 1]
-clj꞉all-your-base꞉> 
-0
-clj꞉all-your-base꞉> 
-2
-1
-0
-[4 0 1]
-clj꞉all-your-base꞉> 
-#'all-your-base/base-2
-clj꞉all-your-base꞉> 
-2
-1
-0
-5
-clj꞉all-your-base꞉> 
-0
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
-0
-clj꞉all-your-base꞉> 
-#'all-your-base/base-2
-clj꞉all-your-base꞉> 
-2
-1
-0
-5
-clj꞉all-your-base꞉> 
-0
-clj꞉all-your-base꞉> 
-2
-1
-0
-101
-clj꞉all-your-base꞉> 
-2
-1
-0
-101
-clj꞉all-your-base꞉> 
-(4 2)
-clj꞉all-your-base꞉> 
-0
-clj꞉all-your-base꞉> 
-#'all-your-base/base-10
-clj꞉all-your-base꞉> 
-#'all-your-base/base-10
-clj꞉all-your-base꞉> 
-0
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
-0
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
-(1 0 1 0 1 0)
-clj꞉all-your-base꞉> 
-(1 1 0 0 1 0 1)
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
-2
-1
-0
-5
-clj꞉all-your-base꞉> 
-()
-clj꞉all-your-base꞉> 
-2
-1
-0
-0
-clj꞉all-your-base꞉> 
-()
-clj꞉all-your-base꞉> 
-2
-1
-0
-0
-clj꞉all-your-base꞉> 
-2
-1
-0
-5
-clj꞉all-your-base꞉> 
-1
-0
-10
-clj꞉all-your-base꞉> 
-(0 0)
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
-1
-0
-10
-clj꞉all-your-base꞉> 
-(1 0 1)
-clj꞉all-your-base꞉> 
-; Could not resolve symbol: ls
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
-(1 0 1 0 1 0)
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
-(1 0 1 0 1 0)
-clj꞉all-your-base꞉> 
-2
-1
-0
-101
-clj꞉all-your-base꞉> 
-2
-1
-0
-101
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
-(0 0)
-clj꞉all-your-base꞉> 
-2
-1
-0
-5
-clj꞉all-your-base꞉> 
-; Could not resolve symbol: newbase
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
-(1 0 1 0 1 0)
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
-2
-1
-0
-5
-clj꞉all-your-base꞉> 
-(1 0 1 0 1 0)
-clj꞉all-your-base꞉> 
-()
-clj꞉all-your-base꞉> 
-2
-1
-0
-0
-clj꞉all-your-base꞉> 
-2
-1
-0
-0
-clj꞉all-your-base꞉> 
-2
-1
-0
-5
-clj꞉all-your-base꞉> 
-2
-1
-0
-5
-clj꞉all-your-base꞉> 
-(1 0 1 0 1 0)
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
+clj꞉ [object Object] ꞉> 
 nil
-clj꞉all-your-base꞉> 
-2
-1
-0
+clj꞉ [object Object] ꞉> 
 nil
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
-()
-clj꞉all-your-base꞉> 
-2
-1
-0
-101
-clj꞉all-your-base꞉> 
+clj꞉ [object Object] ꞉> 
 nil
-clj꞉all-your-base꞉> 
-0
-1
-clj꞉all-your-base꞉> 
-(1 0 1)
-clj꞉all-your-base꞉> 
-(1 0 1 0 1 0)
-clj꞉all-your-base꞉> 
-2
-1
-0
-101
-clj꞉all-your-base꞉> 
-#'all-your-base/base-10
-clj꞉all-your-base꞉> 
-(1 0 1 0 1 0)
-clj꞉all-your-base꞉> 
-(1 0 1)
-clj꞉all-your-base꞉> 
-2
-1
-0
-101
-clj꞉all-your-base꞉> 
-()
-clj꞉all-your-base꞉> 
-0
-1
-clj꞉all-your-base꞉> 
-#'all-your-base/base-2
-clj꞉all-your-base꞉> 
-2
-1
-0
-101
-clj꞉all-your-base꞉> 
-0
-2
-1
-0
+clj꞉ [object Object] ꞉> 
+"HELLO"
+clj꞉ [object Object] ꞉> 
+"H3LLO"
+clj꞉ [object Object] ꞉> 
 nil
-clj꞉all-your-base꞉> 
-()
-clj꞉all-your-base꞉> 
-2
-1
-0
-101
-clj꞉all-your-base꞉> 
-(1 0 1)
-clj꞉all-your-base꞉> 
-(1 0 1 0 1 0)
-clj꞉all-your-base꞉> 
-0
-1
-clj꞉all-your-base꞉> 
-#'all-your-base/base-2
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
-()
-clj꞉all-your-base꞉> 
-2
-1
-0
-5
-clj꞉all-your-base꞉> 
-(1 0 1)
-clj꞉all-your-base꞉> 
-(1 0 1 0 1 0)
-clj꞉all-your-base꞉> 
-0
-1
-clj꞉all-your-base꞉> 
-#'all-your-base/base-2
-clj꞉all-your-base꞉> 
-()
-clj꞉all-your-base꞉> 
-2
-1
-0
-[4 0 1]
-clj꞉all-your-base꞉> 
-#'all-your-base/base-2
-clj꞉all-your-base꞉> 
-()
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
-#'all-your-base/base-2
-clj꞉all-your-base꞉> 
-2
-1
-0
-5
-clj꞉all-your-base꞉> 
-(1 0 1)
-clj꞉all-your-base꞉> 
-(1 0 1 0 1 0)
-clj꞉all-your-base꞉> 
-0
-1
-clj꞉all-your-base꞉> 
-; la.call is not a function
-clj꞉all-your-base꞉> 
-0
-clj꞉all-your-base꞉> 
-0
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
-; la.call is not a function
-clj꞉all-your-base꞉> 
-0
-clj꞉all-your-base꞉> 
-42
-clj꞉all-your-base꞉> 
-0
-clj꞉all-your-base꞉> 
+clj꞉ [object Object] ꞉> 
 nil
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
+clj꞉ [object Object] ꞉> 
 nil
-clj꞉all-your-base꞉> 
-; Could not resolve symbol: ls
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
-2
-1
-0
-42
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
-0
-1
-clj꞉all-your-base꞉> 
-2
-1
-0
-5
-clj꞉all-your-base꞉> 
-(1 0 1 0 1 0)
-clj꞉all-your-base꞉> 
-; Could not resolve symbol: decimal-binary
-clj꞉all-your-base꞉> 
-#'all-your-base/binary-decimal
-clj꞉all-your-base꞉> 
-#'all-your-base/decimal-binary
-clj꞉all-your-base꞉> 
-#'all-your-base/convert
-clj꞉all-your-base꞉> 
-()
-clj꞉all-your-base꞉> 
-2
-1
-0
-0
-clj꞉all-your-base꞉> 
-27
-clj꞉all-your-base꞉> 
-4096
-clj꞉all-your-base꞉> 
-0.000244140625
-clj꞉all-your-base꞉> 
-4096
-clj꞉all-your-base꞉> 
-8
-clj꞉all-your-base꞉> 
-2
-clj꞉all-your-base꞉> 
-0
-clj꞉all-your-base꞉> 
-16
-clj꞉all-your-base꞉> 
-10
-clj꞉all-your-base꞉> 
-16
-clj꞉all-your-base꞉> 
-10
-clj꞉all-your-base꞉> 
-32
-clj꞉all-your-base꞉> 
-10
-clj꞉all-your-base꞉> 
-; Unmatched delimiter: )
-clj꞉all-your-base꞉> 
-32
-clj꞉all-your-base꞉> 
-10
-clj꞉all-your-base꞉> 
-0
-1
-clj꞉all-your-base꞉> 
-32
-clj꞉all-your-base꞉> 
-10
-clj꞉all-your-base꞉> 
+clj꞉ [object Object] ꞉> 
+"442"
+clj꞉ [object Object] ꞉> 
+"442"
+clj꞉ [object Object] ꞉> 
+nil
+clj꞉ [object Object] ꞉> 
+nil
+clj꞉ [object Object] ꞉> 
+nil
+clj꞉ [object Object] ꞉> 
+nil
+clj꞉ [object Object] ꞉> 
+"h"
+clj꞉ [object Object] ꞉> 
+"h"
+clj꞉ [object Object] ꞉> 
+"heelo"
+clj꞉ [object Object] ꞉> 
+"heelo"
+clj꞉ [object Object] ꞉> 
+""
+clj꞉ [object Object] ꞉> 
+; Could not resolve symbol: blank?
+clj꞉ [object Object] ꞉> 
+; Could not resolve symbol: uppercase?
+clj꞉ [object Object] ꞉> 
+; Could not resolve symbol: blank?
+clj꞉ [object Object] ꞉> 
+; Could not resolve symbol: string/blank?
+clj꞉ [object Object] ꞉> 
+#object[Hr bob]
+clj꞉ [object Object] ꞉> 
+true
+clj꞉ [object Object] ꞉> 
+; Could not resolve symbol: uppercase?
+clj꞉ [object Object] ꞉> 
+#'bob/uppercase?
+clj꞉ [object Object] ꞉> 
+
+clj꞉ [object Object] ꞉> 
+; Could not resolve symbol: question?
+clj꞉ [object Object] ꞉> 
+; Could not resolve symbol: question?
+clj꞉ [object Object] ꞉> 
+#'bob/question?
+clj꞉ [object Object] ꞉> 
+; Could not resolve symbol: blank?
+clj꞉ [object Object] ꞉> 
+; Could not resolve symbol: blank?
+clj꞉ [object Object] ꞉> 
+#'bob/blank?
+clj꞉ [object Object] ꞉> 
+#'bob/shout-question?
+clj꞉ [object Object] ꞉> 
+#'bob/response-for
+clj꞉ [object Object] ꞉> 
+false
+clj꞉ [object Object] ꞉> 
+#'bob/blank?
+clj꞉ [object Object] ꞉> 
+#'bob/uppercase?
+clj꞉ [object Object] ꞉> 
+; Could not resolve symbol: s
+clj꞉ [object Object] ꞉> 
+false
+clj꞉ [object Object] ꞉> 
+false
+clj꞉ [object Object] ꞉> 
+""
+clj꞉ [object Object] ꞉> 
+"1, 2, 3 "
+clj꞉ [object Object] ꞉> 
+""
+clj꞉ [object Object] ꞉> 
+""
+clj꞉ [object Object] ꞉> 
+""
+clj꞉ [object Object] ꞉> 
+; Invalid regular expression: /*[A-Za-z]*/: Nothing to repeat
+clj꞉ [object Object] ꞉> 
+"G"
+clj꞉ [object Object] ꞉> 
+nil
+clj꞉ [object Object] ꞉> 
+nil
+clj꞉ [object Object] ꞉> 
+"G"
+clj꞉ [object Object] ꞉> 
+; Invalid regular expression: /[A-Za-z]&*+/: Nothing to repeat
+clj꞉ [object Object] ꞉> 
+; Invalid regular expression: /[A-Za-z]&+*/: Nothing to repeat
+clj꞉ [object Object] ꞉> 
+; Invalid regular expression: /[A-Za-z]&+*/: Nothing to repeat
+clj꞉ [object Object] ꞉> 
+; Invalid regular expression: /[A-Za-z]+*/: Nothing to repeat
+clj꞉ [object Object] ꞉> 
+("" "" "" "" "" "" "" "" "GO" "" "")
+clj꞉ [object Object] ꞉> 
+; a.trim is not a function
+clj꞉ [object Object] ꞉> 
+#object[Hr bob]
+clj꞉ [object Object] ꞉> 
+; a.trim is not a function
+clj꞉ [object Object] ꞉> 
+false
+clj꞉ [object Object] ꞉> 
+false
+clj꞉ [object Object] ꞉> 
+("" "" "" "" "" "" "" "" "GO" "" "")
+clj꞉ [object Object] ꞉> 
+; Invalid regular expression: /[A-Za-z]&+*/: Nothing to repeat
+clj꞉ [object Object] ꞉> 
+"G"
+clj꞉ [object Object] ꞉> 
+nil
+clj꞉ [object Object] ꞉> 
+true
+clj꞉ [object Object] ꞉> 
+#'bob/uppercase?
+clj꞉ [object Object] ꞉> 
+; Too few arguments to if
+clj꞉ [object Object] ꞉> 
+true
+clj꞉ [object Object] ꞉> 
+true
+clj꞉ [object Object] ꞉> 
+""
+clj꞉ [object Object] ꞉> 
+"G"
+clj꞉ [object Object] ꞉> 
+#object[Hr collatz-conjecture]
+clj꞉ [object Object] ꞉> 
+#'collatz-conjecture/collatz
+clj꞉ [object Object] ꞉> 

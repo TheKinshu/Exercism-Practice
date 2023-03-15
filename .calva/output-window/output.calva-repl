@@ -6,12 +6,12 @@
 
 ; Jacking in...
 ; Connecting using "nbb" project type.
-; You can make Calva auto-select this:
-; "calva.autoSelectReplConnectProjectType": "nbb"
-;   - See https://calva.io/connect/#auto-select-project-type
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
 ; 
-; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 58744
-; Hooking up nREPL sessions...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 51321
+; Using host:port 127.0.0.1:51321 ...
+; Hooking up nREPL sessions ...
 ; Connected session: clj
 ; TIPS:
 ;   - You can edit the contents here. Use it as a REPL if you like.
@@ -30,141 +30,30 @@ clj꞉user꞉>  ; Use `alt+enter` to evaluate
 ;    (There is a button in the status bar for this)
 ; Jack-in done.
 cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
-#'user/test3
-clj꞉user꞉> 
-9
-clj꞉user꞉> 
-#'collatz-conjecture/collatz
-clj꞉collatz-conjecture꞉> 
-:no-test
-clj꞉collatz-conjecture꞉> 
-; nREPL Connection was closed
-; Jacking in...
-; Connecting using "nbb" project type.
-; You can make Calva auto-select this:
-; "calva.autoSelectReplConnectProjectType": "nbb"
-;   - See https://calva.io/connect/#auto-select-project-type
-; 
-; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 58775
-; Hooking up nREPL sessions...
-; Connected session: clj
-; TIPS:
-;   - You can edit the contents here. Use it as a REPL if you like.
-;   - `alt+enter` evaluates the current top level form.
-;   - `ctrl+enter` evaluates the current form.
-;   - `alt+up` and `alt+down` traverse up and down the REPL command history
-;      when the cursor is after the last contents at the prompt
-;   - Clojure lines in stack traces are peekable and clickable.
-clj꞉user꞉> 
-; Creating cljs repl session...
-; Connecting cljs repl: nbb...
-;   The Calva Connection Log might have more connection progress information.
-; Connected session: cljs
-; TIPS: You can choose which REPL to use (clj or cljs):
-;    *Calva: Toggle REPL connection*
-;    (There is a button in the status bar for this)
-; Jack-in done.
-cljs꞉cljs.user꞉> 
-#'collatz-conjecture/collatz
-clj꞉collatz-conjecture꞉> 
-; #error {:message nil, :data {:type :sci/error, :line 5, :column 17, :message nil, :sci.impl/callstack #object[cljs.core.Volatile {:val ({:line 1, :column 1, :ns #object[Hr collatz-conjecture], :file "c:\\Users\\Kelvin\\Desktop\\Important stuff\\Job\\Synqrinus\\Exercism\\Easy\\collatz-conjecture.clj", :sci.impl/f-meta {:name collatz, :ns #object[Hr collatz-conjecture], :file "c:\\Users\\Kelvin\\Desktop\\Important stuff\\Job\\Synqrinus\\Exercism\\Easy\\collatz-conjecture.clj", :arglists ([num]), :line 1, :column 1}} {:line 1, :column 1, :ns #object[Hr collatz-conjecture], :file "c:\\Users\\Kelvin\\Desktop\\Important stuff\\Job\\Synqrinus\\Exercism\\Easy\\collatz-conjecture.clj", :sci.impl/f-meta {:name collatz, :ns #object[Hr collatz-conjecture], :file "c:\\Users\\Kelvin\\Desktop\\Important stuff\\Job\\Synqrinus\\Exercism\\Easy\\collatz-conjecture.clj", :arglists ([num]), :line 1, :column 1}} {:ns #object[Hr collatz-conjecture], :file "c:\\Users\\Kelvin\\Desktop\\Important stuff\\Job\\Synqrinus\\Exercism\\Easy\\collatz-conjecture.clj"} {:line 5, :column 17, :ns #object[Hr collatz-conjecture], :file "c:\\Users\\Kelvin\\Desktop\\Important stuff\\Job\\Synqrinus\\Exercism\\Easy\\collatz-conjecture.clj", :special true})}], :file "c:\\Users\\Kelvin\\Desktop\\Important stuff\\Job\\Synqrinus\\Exercism\\Easy\\collatz-conjecture.clj"}, :cause "Can't deal with negativity"}
-clj꞉collatz-conjecture꞉> 
-#'collatz-conjecture/test3
-clj꞉collatz-conjecture꞉> 
-9
-clj꞉collatz-conjecture꞉> 
-#'collatz-conjecture/collatz
-clj꞉collatz-conjecture꞉> 
-9
-clj꞉collatz-conjecture꞉> 
-#'collatz-conjecture/collatz
-clj꞉collatz-conjecture꞉> 
-:no-test
-clj꞉collatz-conjecture꞉> 
-#'collatz-conjecture/test
-clj꞉collatz-conjecture꞉> 
-; nREPL Connection was closed
-; Jacking in...
-; Connecting using "nbb" project type.
-; You can make Calva auto-select this:
-; "calva.autoSelectReplConnectProjectType": "nbb"
-;   - See https://calva.io/connect/#auto-select-project-type
-; 
-; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 57180
-; Hooking up nREPL sessions...
-; Connected session: clj
-; TIPS:
-;   - You can edit the contents here. Use it as a REPL if you like.
-;   - `alt+enter` evaluates the current top level form.
-;   - `ctrl+enter` evaluates the current form.
-;   - `alt+up` and `alt+down` traverse up and down the REPL command history
-;      when the cursor is after the last contents at the prompt
-;   - Clojure lines in stack traces are peekable and clickable.
-clj꞉user꞉> 
-; Creating cljs repl session...
-; Connecting cljs repl: nbb...
-;   The Calva Connection Log might have more connection progress information.
-; Connected session: cljs
-; TIPS: You can choose which REPL to use (clj or cljs):
-;    *Calva: Toggle REPL connection*
-;    (There is a button in the status bar for this)
-; Jack-in done.
-cljs꞉cljs.user꞉> 
-#'collatz-conjecture/collatz
-clj꞉collatz-conjecture꞉> 
-; nREPL Connection was closed
-; Jacking in...
-; Connecting using "nbb" project type.
-; You can make Calva auto-select this:
-; "calva.autoSelectReplConnectProjectType": "nbb"
-;   - See https://calva.io/connect/#auto-select-project-type
-; 
-; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 57251
-; Hooking up nREPL sessions...
-; Connected session: clj
-; TIPS:
-;   - You can edit the contents here. Use it as a REPL if you like.
-;   - `alt+enter` evaluates the current top level form.
-;   - `ctrl+enter` evaluates the current form.
-;   - `alt+up` and `alt+down` traverse up and down the REPL command history
-;      when the cursor is after the last contents at the prompt
-;   - Clojure lines in stack traces are peekable and clickable.
-clj꞉user꞉> 
-; Creating cljs repl session...
-; Connecting cljs repl: nbb...
-;   The Calva Connection Log might have more connection progress information.
-; Connected session: cljs
-; TIPS: You can choose which REPL to use (clj or cljs):
-;    *Calva: Toggle REPL connection*
-;    (There is a button in the status bar for this)
-; Jack-in done.
-cljs꞉cljs.user꞉> 
-#'collatz-conjecture/collatz
-clj꞉collatz-conjecture꞉> 
-4
-clj꞉collatz-conjecture꞉> 
-#'collatz-conjecture/collatz
-clj꞉collatz-conjecture꞉> 
-4
-clj꞉collatz-conjecture꞉> 
-; Could not resolve symbol: is
-clj꞉complex-numbers꞉> 
-; Could not resolve symbol: is
-clj꞉complex-numbers꞉> 
-; Could not resolve symbol: is
-clj꞉complex-numbers꞉> 
+; Could not resolve symbol: strings/includes?
+clj꞉pangram꞉> 
+; Could not resolve symbol: strings/includes?
+clj꞉pangram꞉> 
+#object[Ir pangram]
+clj꞉pangram꞉> 
+; Could not resolve symbol: strings/includes?
+clj꞉pangram꞉> 
 false
-clj꞉complex-numbers꞉> 
-1
-clj꞉complex-numbers꞉> 
-0
-clj꞉complex-numbers꞉> 
-1
-clj꞉complex-numbers꞉> 
-; Could not resolve symbol: *a
-clj꞉complex-numbers꞉> 
-[5 0]
-clj꞉complex-numbers꞉> 
-[5 0]
-clj꞉complex-numbers꞉> 
+clj꞉pangram꞉> 
+false
+clj꞉pangram꞉> 
+; Could not resolve symbol: set/superset?
+clj꞉pangram꞉> 
+#object[Ir pangram]
+clj꞉pangram꞉> 
+false
+clj꞉pangram꞉> 
+false
+clj꞉pangram꞉> 
+; Could not resolve symbol: lower
+clj꞉pangram꞉> 
+; Could not resolve symbol: alphabet
+clj꞉pangram꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
 ; nREPL Connection was closed

@@ -9,8 +9,8 @@
 ; You can make Calva auto-select this.
 ;   - See https://calva.io/connect-sequences/
 ; 
-; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 51321
-; Using host:port 127.0.0.1:51321 ...
+; Starting Jack-in Terminal: npx.cmd nbb nrepl-server :port 62389
+; Using host:port 127.0.0.1:62389 ...
 ; Hooking up nREPL sessions ...
 ; Connected session: clj
 ; TIPS:
@@ -30,30 +30,31 @@ clj꞉user꞉>  ; Use `alt+enter` to evaluate
 ;    (There is a button in the status bar for this)
 ; Jack-in done.
 cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
-; Could not resolve symbol: strings/includes?
-clj꞉pangram꞉> 
-; Could not resolve symbol: strings/includes?
-clj꞉pangram꞉> 
-#object[Ir pangram]
-clj꞉pangram꞉> 
-; Could not resolve symbol: strings/includes?
-clj꞉pangram꞉> 
-false
-clj꞉pangram꞉> 
-false
-clj꞉pangram꞉> 
-; Could not resolve symbol: set/superset?
-clj꞉pangram꞉> 
-#object[Ir pangram]
-clj꞉pangram꞉> 
-false
-clj꞉pangram꞉> 
-false
-clj꞉pangram꞉> 
-; Could not resolve symbol: lower
-clj꞉pangram꞉> 
-; Could not resolve symbol: alphabet
-clj꞉pangram꞉> 
-; nREPL connection failed: Error: read ECONNRESET
-; Failed connecting.
-; nREPL Connection was closed
+; Could not resolve symbol: roman-list
+clj꞉user꞉> 
+; ea.call is not a function
+clj꞉roman-numerals꞉> 
+; ea.call is not a function
+clj꞉roman-numerals꞉> 
+#'roman-numerals/roman-list
+clj꞉roman-numerals꞉> 
+"L"
+clj꞉roman-numerals꞉> 
+"L"
+clj꞉roman-numerals꞉> 
+; Could not resolve symbol: roman
+clj꞉roman-numerals꞉> 
+#'roman-numerals/roman
+clj꞉roman-numerals꞉> 
+"X"
+clj꞉roman-numerals꞉> 
+"LII"
+clj꞉roman-numerals꞉> 
+; Could not resolve symbol: num
+clj꞉roman-numerals꞉> 
+#'roman-numerals/numerals
+clj꞉roman-numerals꞉> 
+"XXX"
+clj꞉roman-numerals꞉> 
+"MMMCCXXII"
+clj꞉roman-numerals꞉> 
